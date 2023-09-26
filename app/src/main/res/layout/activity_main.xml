@@ -63,6 +63,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
+            android:onClick="btn_sum"
             android:text="+"
             app:layout_column="0"
             app:layout_gravity="fill"
@@ -74,6 +75,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
+            android:onClick="btn_difference"
             android:text="-"
             app:layout_column="1"
             app:layout_gravity="fill"
@@ -84,6 +86,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
+            android:onClick="btn_division"
             android:text="/"
             app:layout_column="2"
             app:layout_gravity="fill"
@@ -94,6 +97,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
+            android:onClick="btn_multiplication"
             android:text="*"
             app:layout_column="1"
             app:layout_columnSpan="2"
@@ -104,12 +108,13 @@
             android:id="@+id/button5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:onClick="btn_clean"
             android:text="C"
             app:layout_column="0"
             app:layout_columnSpan="3"
             app:layout_gravity="fill"
-            app:layout_row="3"
-            android:layout_margin="5dp" />
+            app:layout_row="3" />
     </androidx.gridlayout.widget.GridLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
